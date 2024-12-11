@@ -37,7 +37,7 @@ Here's the Claude Desktop configuration to use the Apple Shortcuts server:
 
 ## Usage
 
-You can ask Claude "list shortcuts" or run a specific shortcut with the shortcut name.
+You can ask Claude "list shortcuts" or run a specific shortcut with the shortcut name, for example "get word of the day" or "play a song".
 
 ## License
 
