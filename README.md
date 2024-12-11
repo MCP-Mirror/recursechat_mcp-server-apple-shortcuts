@@ -21,9 +21,37 @@ Before you begin, ensure you have:
 - [Claude Desktop](https://claude.ai/download) installed
 - macOS with Shortcuts app configured
 
-## Configuration to use Apple Shortcuts Server
-Here's the Claude Desktop configuration to use the Apple Shortcuts server:
+## Configuration to use Apple Shortcuts Server ⚙️
 
+1. Clone this repository:
+
+```sh
+git clone git@github.com:recursechat/mcp-server-apple-shortcuts.git
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Build project
+```sh
+npm run build
+```
+
+Here's the Claude Desktop configuration to use the Apple Shortcuts server:
+```json
+{
+  "mcpServers": {
+    "apple-shortcuts": {
+      "command": "npx",
+      "args": ["/path/to/mcp-server-apple-shortcuts/build/index.js"],
+    }
+  }
+}
+```
+
+<!--
 ```json
 {
   "mcpServers": {
@@ -34,11 +62,12 @@ Here's the Claude Desktop configuration to use the Apple Shortcuts server:
   }
 }
 ```
+-->
 
-## Usage
+## Usage 🎯
 
 You can ask Claude "list shortcuts" or run a specific shortcut with the shortcut name, for example "get word of the day" or "play a song".
 
-## License
+## License ⚖️
 
 Apache-2.0
