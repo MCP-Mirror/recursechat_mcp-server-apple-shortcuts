@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that lets AI assistants like Claude control Apple Shortcuts automations. This enables AI models to trigger shortcuts and automate tasks on macOS in a safe and controlled way.
 
+<img src="https://img.shields.io/npm/v/mcp-server-apple-shortcuts"/>
+
 <a href="https://glama.ai/mcp/servers/15z6abk6p2"><img width="380" height="200" src="https://glama.ai/mcp/servers/15z6abk6p2/badge" /></a>
 
 ## What is MCP? 🤔
