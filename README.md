@@ -25,6 +25,20 @@ Before you begin, ensure you have:
 
 ## Configuration to use Apple Shortcuts Server ⚙️
 
+Here's the Claude Desktop configuration to use the Apple Shortcuts server:
+```json
+{
+  "mcpServers": {
+    "apple-shortcuts": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-apple-shortcuts"]
+    }
+  }
+}
+```
+
+## Build Apple Shortcuts Server and run locally 🛠️
+
 1. Clone this repository:
 
 ```sh
@@ -41,7 +55,7 @@ npm install
 npm run build
 ```
 
-Here's the Claude Desktop configuration to use the Apple Shortcuts server:
+Here's the Claude Desktop configuration to use the Apple Shortcuts server with a local build:
 ```json
 {
   "mcpServers": {
